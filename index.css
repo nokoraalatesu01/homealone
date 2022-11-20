@@ -1,0 +1,32 @@
+html {
+    background: url(Untitled.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+h1{
+    color: rgb(231, 41, 41);
+    font-size:50px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.box{
+    padding-left:100px;
+    padding-top: 90px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    border: solid red 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    color:red;
+    cursor: pointer;
+}
+div{
+    margin-top: 15px;
+}
