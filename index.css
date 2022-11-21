@@ -5,10 +5,26 @@ html {
     background-attachment: fixed; 
 }
 h1{
-    color: rgb(231, 41, 41);
-    font-size:50px;
+    font-size:40px;
     padding-top: 20px;
     padding-left: 70px;
+    text-shadow: 0 0 40px rgb(253, 92, 92);
+    background: linear-gradient(90deg, #ff0000, #ff00f3, #1100ff, #1100ff, #ff00c4, #ff0000);
+    background-size: 200%;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+    
 }
 .box{
     padding-left:100px;
